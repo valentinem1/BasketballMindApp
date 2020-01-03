@@ -1,0 +1,8 @@
+<h1><%= @team.name %></h1>
+
+<% @team.tags.each do |tag| %>
+    <% tag.articles.each do |article|%>
+        <%= link_to article.title, article_path(@article) %>
+    <% end %>
+<% end %>
+

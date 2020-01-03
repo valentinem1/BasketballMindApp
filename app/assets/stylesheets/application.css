@@ -1,0 +1,30 @@
+header{
+    margin: 0px;
+	padding: 10px;
+	display: block;
+	font-size: 25px;
+	background-color: #010101;
+	font-family: phosphate;
+	color: #FEFEFE;
+	text-decoration: none;
+ }
+
+ body{
+	margin:0px;
+	padding:0px;
+	font-family: arial, sans serif;
+    background-color:EFF0F0;
+    color: black;
+}
+
+.article_title{
+    text-align: center;
+    font-size: 36px;
+}
+
+.article_post{
+    font-size: 16px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
